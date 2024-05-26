@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Stacks on Stacks</title>
+</head>
+<body>
+	<h1>Antlers Layout</h1>
+
+	<ul>
+		<li><a href="/">Antlers Layout</a></li>
+		<li><a href="/blade-layout">Blade Layout</a></li>
+	</ul>
+
+    {{ stack:the_stack /}}
+
+    {{ push:the_stack }}
+        <br /> * Pushing content directly from the Antlers layout.
+    {{ /push:the_stack }}
+</body>
+</html>
